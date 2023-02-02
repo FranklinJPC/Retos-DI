@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+main{
+    margin: 15px;
+    border: 5px;
+}
+.imagen{
+    text-align: center;
+}
+img{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+section{
+    align-content: center;
+}
+header{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+}
+nav .arsene{
+    width: 150px;
+}
+
+.carta{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FF0000;
+    border: black 5px solid;
+    width: 250px;
+    min-width: 250px;
+    max-height: 500px;
+    border-radius: 15px;
+}
+.carta-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    border: white 2px solid;
+    border-radius: 15px;
+    background-color: white;
+}
+.carta-texto{
+    text-align: center;
+    padding: 10px;
+}
