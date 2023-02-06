@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color:hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+header h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+    gap: 4rem;
+    padding: 25px;
+}
+main{
+    padding: 10px;
+}
+.carta-principal{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: white 2px solid;
+    flex-direction: column;
+    border-radius: 25px;
+    align-content: center;
+    justify-content: center;
+    max-width: 400px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.imagen-main{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin: 0 auto;
+}
+.parrafos p{
+    font-weight: lighter;
+    line-height: 25px;
+}
+h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.carta-contenedor{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    gap: 1.5rem;
+}
+.orden{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 1.4rem;
+    max-width: 352px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+.orden-infor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 900px;
+    gap: 1rem;
+}
+.orden-detalle img{
+    width: 49.6px;
+    height: 49.6px;
+    object-fit: cover;
+}
+.orden-detalle p:first-child{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 16;
+    font-weight: 700;
+    font-size: 17.6px;
+}
+.orden-detalle p{
+    color: hsl(224, 23%, 55%);
+    line-height: 20px;
+    font-weight: 500;
+}
+.cambio{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: hsl(245, 75%, 52%);
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.botones-pago{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 20rem;
+    padding: 8px;
+    font-weight: 900;
+    border: transparent;
+    box-shadow: 5px 10px 20px hsl(245, 75%, 90%);
+    color: white;
+}
+.botones-cancelar{
+    background-color: transparent;
+    border-radius: 10px;
+    border: transparent;
+    font-weight: 700;
+    color: rgb(136, 133, 133);
+
+}
