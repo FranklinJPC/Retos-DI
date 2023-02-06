@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDF7E3;
+}
+img{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+header{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+}
+nav h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+nav .arsene{
+    width: 150px;
+}
+.tarjeta{
+    gap: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: white 2px solid;
+    flex-direction: column;
+    border-radius: 25px;
+    align-content: center;
+    justify-content: center;
+    max-width: 400px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.tarjeta h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.tarjeta ul{
+    list-style: none;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.tarjeta li{
+    padding: 5px;
+}
+.tarjeta-infor{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin: 0 auto;
+}
+.tarjeta-detalle h3{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+button{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-weight: 900;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 18px;
+}
+.botones a{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 20rem;
+    padding: 8px;
+    box-shadow: 5px 10px 20px hsl(245, 75%, 90%);
+}
